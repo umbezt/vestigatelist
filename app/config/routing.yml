@@ -1,3 +1,8 @@
+video:
+    resource: "@VideoBundle/Controller/"
+    type:     annotation
+    prefix:   /videos
+
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
